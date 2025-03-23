@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ppp iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.ota {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+.ota1 {
+    margin-top: 40px;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+body {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.gifer.com%2FBXe0.gif&f=1&nofb=1&ipt=bd33e7abe0ca3545bc5988fb7a190fb2436cf4133e79f6f43206123af8667a9f&ipo=images");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+@media (max-width: 576px) {
+    .ppp {
+        width: 200px;
+        height: 100px;
+        margin: 0 auto;
+        
+    }
+}
